@@ -1,4 +1,4 @@
 <?
-   $name = "Your Name";
+   $name = "Max I.";
    echo "Hello ".$name;
 ?>
