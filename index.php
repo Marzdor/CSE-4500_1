@@ -28,8 +28,8 @@
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#education">Education</a>
                 <a class="nav-link" href="#experience">Experience</a>
-                <a class="nav-link" href="#education">Skills</a>
-                <a class="nav-link" href="#experience">Interests</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#interests">Interests</a>
             </nav>
         </nav>
     </div>
@@ -67,21 +67,24 @@
                     <span class="text-primary"><?php echo $experience['period']; ?></span>
                 </div>
             </div>
-            <?php  } ?>
+            <?php } ?>
         </div>
         <hr>
-        <div class="vertical-center">
-            <h4>Skills</h4>
-            <p>...</p>
+        <div id="skills" class="content-item">
+            <div class="vertical-center">
+                <h4>Skills</h4>
+                <p>...</p>
+            </div>
         </div>
-    </div>
-    <hr>
-    <div class="vertical-center">
-        <h4>Interests</h4>
-        <p>...</p>
-    </div>
-    </div>
-    <hr>
+        <hr>
+        <hr>
+        <div id="interests" class="content-item">
+            <div class="vertical-center">
+                <h4>Interests</h4>
+                <p>...</p>
+            </div>
+        </div>
+        <hr>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
